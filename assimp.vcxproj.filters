@@ -10,6 +10,9 @@
     <Filter Include="contrib\irrXML">
       <UniqueIdentifier>{03DA25FB-EFA7-1901-D83B-8A27C4A8F565}</UniqueIdentifier>
     </Filter>
+    <Filter Include="contrib\zlib">
+      <UniqueIdentifier>{168D044F-02F0-93F3-AB75-CCA997B75F76}</UniqueIdentifier>
+    </Filter>
     <Filter Include="include">
       <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
     </Filter>
@@ -44,6 +47,42 @@
     </ClInclude>
     <ClInclude Include="assimp\contrib\irrXML\irrXML.h">
       <Filter>contrib\irrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\crc32.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\deflate.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\gzguts.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\inffast.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\inffixed.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\inflate.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\inftrees.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\trees.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\zconf.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\zconf.in.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\zlib.h">
+      <Filter>contrib\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="assimp\contrib\zlib\zutil.h">
+      <Filter>contrib\zlib</Filter>
     </ClInclude>
     <ClInclude Include="assimp\include\assimp\BaseImporter.h">
       <Filter>include\assimp</Filter>
@@ -452,10 +491,73 @@
     <ClCompile Include="assimp\contrib\irrXML\irrXML.cpp">
       <Filter>contrib\irrXML</Filter>
     </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\adler32.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\compress.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\crc32.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\deflate.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\gzclose.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\gzlib.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\gzread.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\gzwrite.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\infback.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\inffast.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\inflate.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\inftrees.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\trees.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\uncompr.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="assimp\contrib\zlib\zutil.c">
+      <Filter>contrib\zlib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="assimp\contrib\irrXML\CMakeLists.txt">
       <Filter>contrib\irrXML</Filter>
+    </None>
+    <None Include="assimp\contrib\zlib\CMakeLists.txt">
+      <Filter>contrib\zlib</Filter>
+    </None>
+    <None Include="assimp\contrib\zlib\README">
+      <Filter>contrib\zlib</Filter>
+    </None>
+    <None Include="assimp\contrib\zlib\zconf.h.cmakein">
+      <Filter>contrib\zlib</Filter>
+    </None>
+    <None Include="assimp\contrib\zlib\zconf.h.in">
+      <Filter>contrib\zlib</Filter>
+    </None>
+    <None Include="assimp\contrib\zlib\zconf.h.included">
+      <Filter>contrib\zlib</Filter>
+    </None>
+    <None Include="assimp\contrib\zlib\zlib.pc.cmakein">
+      <Filter>contrib\zlib</Filter>
     </None>
     <None Include="assimp\include\assimp\.editorconfig">
       <Filter>include\assimp</Filter>

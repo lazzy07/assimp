@@ -170,4 +170,5 @@ project "assimp"
         "assimp/code/ScaleProcess.cpp",
         "assimp/code/EmbedTexturesProcess.cpp",
         "assimp/contrib/irrXML/*",
+		"assimp/contrib/zlib/*"
     }
